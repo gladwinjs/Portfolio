@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-background">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <img src="C:\xampp\htdocs\wp2740673.jpg" alt="Profile Photo">
+            <h1>Hi, I'm Sahaya Gladwin JS</h1>
+            <p>Web Developer | Designer | Tech Enthusiast</p>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>~About Me~</h2>
+            <img src="https://img.reintech.io/variants/s2odbtfbi1vnj0v0lpk08uk9n9fl/e7b4ce09c703210ab8f75b017c7eaf0951c5a95b737ee8120602845c1c1d944b" alt="Siyam's Profile" class="profile-photo">
+            <p>Hello there! I'm a front-end Developer Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste minima veritatis nobis unde odit consectetur fugit illo accusantium, amet nemo corrupti ut inventore magni enim reiciendis numquam praesentium quo architecto assumenda hic aut illum in tempore magnam! Architecto minima et tempora. Ex eveniet provident illo veniam id at odio cumque ratione quas error reiciendis laboriosam dolorum ipsum asperiores ut temporibus cupiditate, accusantium pariatur quisquam culpa corporis? Nemo, dolores voluptatem id dolorum esse molestias voluptatibus a qui obcaecati velit fugiat quibusdam aliquid natus? Pariatur consequuntur nostrum molestiae, voluptatum laborum adipisci cum. Mollitia debitis assumenda aspernatur! Omnis laborum quia dolor similique perspiciatis?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aliquid, consectetur laudantium dolorum deserunt molestias. A esse quo sunt tempora dignissimos at nisi ut corporis, alias illo totam dolorum illum sint consectetur autem! Atque, aperiam? Possimus, beatae. Nostrum rerum explicabo vel voluptates, tempora magni labore sint cupiditate ea unde autem!</p>
+        </section>
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <!-- Project 1 -->
+            <div class="portfolio-item">
+                <h3>Web Scraping Instagram Data</h3>
+                <h5>Project Description</h5>
+                <p>This project involves scraping data from Instagram to gather insights about user profiles. The script collects data such as:</p>
+                <ul>
+                    <li>Username</li>
+                    <li>Bio Description</li>
+                    <li>Total number of followers and followees</li>
+                    <li>List of followers</li>
+                    <li>Number of posts</li>
+                    <li>Number of likes and comments on each post</li>
+                </ul>
+                <p>The data is then processed and visualized to provide valuable insights for social media analysis.</p>
+                <a href="https://github.com/gladwinjs" target="_blank">View Project on GitHub</a>
+            </div>
+        
+            <!-- Project 2 -->
+            <div class="portfolio-item">
+                <h3>Iris Flower Classification</h3>
+                <h5>Project Description</h5>
+                <p>The Iris Flower Classification project involves analyzing the famous Iris dataset, which contains measurements of three different iris species:</p>
+                <ul>
+                    <li>Iris Setosa</li>
+                    <li>Iris Versicolor</li>
+                    <li>Iris Virginica</li>
+                </ul>
+                <p>Using this dataset, we plotted classification details and developed a model to predict the species of an iris flower based on its features. The project includes data visualization, model training, and evaluation.</p>
+                <a href="https://github.com/gladwinjs" target="_blank">View Project on GitHub</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="phone">Your Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="address">Your Address:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer><p>Copyright @ 2023 Siyam S - All Rights Reserved</p></footer>
+</body>
+</html>
